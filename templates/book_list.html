@@ -1,0 +1,12 @@
+<h1>Barcha kitoblar shu yerda</h1>
+
+
+{% for book in object_list%}
+<ul>
+    <li>TITLE : {{book.title}}</li>
+    <li>SUBTITLE : {{book.subtitle}}</li>
+    <li>AUTHOR : {{book.author}}</li>
+    <li>ISBN : {{book.isbn}}</li>
+</ul>
+{%endfor%}
+

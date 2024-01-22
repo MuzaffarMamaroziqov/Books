@@ -1,0 +1,11 @@
+<h1>Barcha Noutbuklar shu yerda</h1>
+
+
+{% for notebook in object_list%}
+<ul>
+    <li>Name: {{notebook.name}}</li>
+    <li>Color : {{notebook.color}}</li>
+    <li>Price : {{notebook.price}}</li>
+
+</ul>
+{%endfor%}
